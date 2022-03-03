@@ -6,8 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "xch.gallery Blog",
-  tagline: "Dinosaurs are cool",
+  title: "xch.gallery",
   url: "https://docs.xch.gallery",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -22,15 +21,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "/docs",
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl: "https://github.com/xch-gallery/docs/tree/main/",
         },
         blog: {
+          blogTitle: "xch.gallery Blog",
           routeBasePath: "/",
-
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl: "https://github.com/xch-gallery/docs/tree/main/",
         },
         theme: {
@@ -44,22 +42,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "xch.gallery Blog",
+        title: "xch.gallery",
         logo: {
           alt: "xch.gallery Logo",
           src: "img/pflanz_128.png",
         },
         items: [
-          // {
-          //   type: "doc",
-          //   docId: "intro",
-          //   position: "left",
-          //   label: "Tutorial",
-          // },
-          // { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: "doc",
+            docId: "faq",
+            position: "left",
+            label: "Documentation",
+          },
           {
             href: "https://xch.gallery",
-            label: "Gallery",
+            label: "xch.gallery",
+          },
+          {
+            href: "https://discord.gg/FJt6ZRYyyS",
+            label: "Discord",
+            position: "right",
           },
           {
             href: "https://github.com/xch-gallery/docs",
@@ -75,25 +77,12 @@ const config = {
         //     title: "Docs",
         //     items: [
         //       {
+        //         label: "FAQ",
+        //         to: "/docs/faq",
+        //       },
+        //       {
         //         label: "Tutorial",
-        //         to: "/docs/intro",
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: "Community",
-        //     items: [
-        //       {
-        //         label: "Stack Overflow",
-        //         href: "https://stackoverflow.com/questions/tagged/docusaurus",
-        //       },
-        //       {
-        //         label: "Discord",
-        //         href: "https://discordapp.com/invite/docusaurus",
-        //       },
-        //       {
-        //         label: "Twitter",
-        //         href: "https://twitter.com/docusaurus",
+        //         to: "/docs/Tutorials",
         //       },
         //     ],
         //   },
