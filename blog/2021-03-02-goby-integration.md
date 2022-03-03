@@ -1,7 +1,7 @@
 ---
 slug: goby-integration
 title: Goby Integration
-description: We have completed the first step integrating the Goby Web Wallet into xch.gallery! You can now take offers for NFT tokens directly in the browser.
+description: We have completed the first step integrating the Goby Web Wallet into xch.gallery!
 authors: acevail
 tags: [announcement, integration]
 image: /img/blog/xchgallery_x_goby.png

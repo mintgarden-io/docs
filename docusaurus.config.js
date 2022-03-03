@@ -21,13 +21,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: "/docs",
+          routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/xch-gallery/docs/tree/main/",
         },
         blog: {
-          blogTitle: "xch.gallery Blog",
-          routeBasePath: "/",
+          blogTitle: "Blog",
+          routeBasePath: "/blog",
           showReadingTime: true,
           editUrl: "https://github.com/xch-gallery/docs/tree/main/",
         },
@@ -54,6 +54,7 @@ const config = {
             position: "left",
             label: "Documentation",
           },
+          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://xch.gallery",
             label: "xch.gallery",
