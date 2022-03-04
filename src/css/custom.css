@@ -28,3 +28,7 @@
   --ifm-color-primary-lighter: #19bb55;
   --ifm-color-primary-lightest: #1dd460;
 }
+
+.navbar__brand {
+  margin-right: 0
+}

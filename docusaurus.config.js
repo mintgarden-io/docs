@@ -42,10 +42,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "xch.gallery",
         logo: {
           alt: "xch.gallery Logo",
-          src: "img/pflanz_128.png",
+          src: "img/xch-gallery-logo-dark-text.png",
+          srcDark: "img/xch-gallery-logo-white-text.png",
         },
         items: [
           {
