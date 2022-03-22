@@ -1,18 +1,18 @@
 ---
-slug: what-is-it-NFTs
-title: What is it? NFT
+slug: what-is-an-NFT
+title: What is an NFT?
 description: A brief overview of NFTs and their use cases.
 authors: clydewallace22
 tags: [overview, nft]
 image: /img/blog/nft/what-is-it-NFT.png
 ---
-![What is it? NFT](/img/blog/nft/what-is-it-NFT.png)
+![What is an NFT?](/img/blog/nft/what-is-it-NFT.png)
 
 "Blockchain technology and NFTs afford artists and content creators a unique opportunity to monetize their wares" - [Forbes](https://www.forbes.com/advisor/investing/nft-non-fungible-token/)
 
 <!--truncate-->
 
-## What are NFTs?
+## What is an NFT?
 
 ***
 
@@ -61,42 +61,17 @@ Utility NFT's represent assets that have a specific function including event tic
 ## Sources:
 
 1 [Forbes](https://www.forbes.com/advisor/investing/nft-non-fungible-token/)
-  - "Blockchain technology and NFTs afford artists and content creators a unique opportunity to monetize their wares"
-
 2 [BBC](https://www.bbc.com/news/technology-56371912)
-  - One-of-a-kind assets
-  - "Artwork can be tokenised"
-  - "Digital certificate of ownership"
-
 3 [NFT Creator](https://nft-creator.co/nft/types-of-nfts/)
-  - "Memes have always been posted to enhance the social media discourse for fun. Now, unique meme creators can participate in an evolving NFT ecosystem by showcasing their memes as NFTs."
-
 4 [Business Insider](https://www.businessinsider.com/ethereum-nft-meme-art-nyan-cat-sells-for-300-eth-2021-2)
-  - Nyan cat meme NFT sold for ~ $600,000
-
 5 [NBCNews](https://www.nbcnews.com/pop-culture/pop-culture-news/iconic-doge-meme-nft-breaks-records-selling-roughly-4-million-n1270161)
-  - Doge Meme sold for $4million
-
 6 [BBC](https://www.bbc.com/news/newsbeat-57333990)
-  - Charlie bit me
-
 7 [Christies](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924)
-  - Beeple's Everydays: The First 5000 Days
-
 8 [Rolling Stone](https://www.rollingstone.com/music/music-news/whitney-houston-nft-collection-unreleased-song-demo-1258758/)
-  - Whitney Houston's  OneOf One NFT
-
 9 [Silver Moon Studio](https://silvermoon.studio/about)
-  - Converting physical artwork into immersive digital art
-
 10 [Yahoo Finance](https://finance.yahoo.com/news/south-korean-university-issue-nfts-032142269.html)
-  - Hoseo Academy issues NFT-based diplomas
-
 11 [Etherland](https://etherland.world/about-the-worlds-metaverse/)
-  - Etherland converts physical real estate documents into digital Files
-
 12 [DC Comics](https://www.dccomics.com/blog/2022/03/11/cartamundi-launches-dc-hybrid-physical-and-nft-trading-cards)
-  - DC is releasing hybrid NFT trading cards
 
 
 
