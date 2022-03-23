@@ -6,12 +6,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "xch.gallery",
-  url: "https://docs.xch.gallery",
+  title: "MintGarden",
+  url: "https://docs.mintgarden.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/mint-logo.svg",
   organizationName: "xch-gallery", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
 
@@ -44,8 +44,8 @@ const config = {
       navbar: {
         logo: {
           alt: "xch.gallery Logo",
-          src: "img/xch-gallery-logo-dark-text.png",
-          srcDark: "img/xch-gallery-logo-white-text.png",
+          src: "img/mintgarden-logo.svg",
+          srcDark: "img/mintgarden-logo-white-text.svg",
         },
         items: [
           {
@@ -56,8 +56,8 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://xch.gallery",
-            label: "xch.gallery",
+            href: "https://mintgarden.io",
+            label: "mintgarden.io",
           },
           {
             href: "https://discord.gg/FJt6ZRYyyS",
@@ -101,7 +101,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} xch.gallery`,
+        copyright: `Copyright © ${new Date().getFullYear()} MintGarden`,
       },
       prism: {
         theme: lightCodeTheme,
