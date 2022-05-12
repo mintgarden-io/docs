@@ -4,6 +4,7 @@ title: What is an NFT?
 description: A brief overview of NFTs and their use cases.
 authors: clydewallace22
 tags: [overview, nft, draft]
+draft: true
 image: /img/blog/nft/what-is-it-NFT.png
 ---
 ![What is an NFT?](/img/blog/nft/what-is-it-NFT.png)
