@@ -4,9 +4,9 @@ title: Chia Releases NFT0
 description: Overview of the NFT0 alpha NFT standard, how to mint NFTs, and how to view them on MintGarden.io
 authors: clydewallace22
 tags: [overview, nft, nft0, announcement]
-image: /img/blog/nft0_wallet.png
+image: /img/blog/nft0_cc.png
 ---
-![Chia Releases NFT0](/img/blog/nft0_wallet.png)
+![Chia Releases NFT0](/img/blog/nft0_cc.png)
 
 Today, Chia released the NFT0 alpha standard and a timeline for the official NFT standard release (NFT1). The NFT0 alpha standard enables the community to test minting capabilities and gain insights into how the official NFT standard will look and operate in their Chia client.
 
