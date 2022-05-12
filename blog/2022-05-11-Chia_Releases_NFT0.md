@@ -1,12 +1,12 @@
 ---
-slug: chia-releases-nft0
-title: Chia Releases NFT0
+slug: nft0-is-live-on-mintgarden
+title: NFT0 is Live on MintGarden
 description: Overview of the NFT0 alpha NFT standard, how to mint NFTs, and how to view them on MintGarden.io
 authors: clydewallace22
 tags: [overview, nft, nft0, announcement]
-image: /img/blog/nft0_cc.png
+image: /img/blog/nft0_mg.png
 ---
-![Chia Releases NFT0](/img/blog/nft0_cc.png)
+![NFT0 is Live on MintGarden](/img/blog/nft0_mg.png)
 
 Today, Chia released the NFT0 alpha standard and a timeline for the official NFT standard release (NFT1). The NFT0 alpha standard enables the community to test minting capabilities and gain insights into how the official NFT standard will look and operate in their Chia client.
 
@@ -18,11 +18,11 @@ Today, Chia released the NFT0 alpha standard and a timeline for the official NFT
 
 Chia has released NFT0, a public, testnet10 standard for NFTs: ["Our vision for NFTs aligns with the Chia core pillars of security, sustainability, and compliance."](https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html). MintGarden has incorporated the NFT0 standard directly into [testnet.mintgarden.io](https://testnet.mintgarden.io/) so any NFTs created on the blockchain using NFT0 will automatically be identified and displayed on MintGarden (mainnet NFTs will likely require an opt-in for listing on MintGarden).
 
-![NFT0 Has Arrived on MintGarden](/img/blog/nft0_mg.png)
+![Chia Releases NFT0](/img/blog/nft0_cc.png)
 
 ### 📑 Tutorial for minting NFT0 compliant NFTs via CLI commands:
 
-1. Install and setup the main_dids branch on testnet10
+1. Install and setup the main_dids branch on testnet10 (the node is not required, only the steps listed need to be followed)
  - Steps 3-11 https://docs.chia.net/docs/15resources/nft_dev_guide/#install-and-configure-chia
 2. Add txch to your Standard Wallet
  - Step 12 https://docs.chia.net/docs/15resources/nft_dev_guide/#install-and-configure-chia
@@ -74,7 +74,7 @@ Chia has released NFT0, a public, testnet10 standard for NFTs: ["Our vision for 
 | Permanence (multiple uris)   | &#x2611;  | &#x2611; |
 | Offer Files                  | &#x2611;  | &#x2611; |
 | MetaData                     | &#x2612;  | &#x2611; |
-| Provenance (dids)            | &#x2612;  | &#x2611; |
+| Provenance (DIDs)            | &#x2612;  | &#x2611; |
 | Royalties                    | &#x2612;  | &#x2611; |
 
 
