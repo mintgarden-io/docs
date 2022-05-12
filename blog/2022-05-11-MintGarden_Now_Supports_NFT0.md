@@ -23,11 +23,19 @@ Chia has released NFT0, a public, testnet10 standard for NFTs: ["Our vision for 
 ### 📑 Tutorial for minting NFT0 compliant NFTs via CLI commands:
 
 1. Install and setup the main_dids branch on testnet10
+
+:::danger
+
+We advise these NFTs are only minted on **testnet10**.
+
+:::
+
 :::tip
 
 The full node is not required, only the steps listed need to be followed
 
 :::()
+
  - Steps 3-11 https://docs.chia.net/docs/15resources/nft_dev_guide/#install-and-configure-chia
 2. Add txch to your Standard Wallet
  - Step 12 https://docs.chia.net/docs/15resources/nft_dev_guide/#install-and-configure-chia
