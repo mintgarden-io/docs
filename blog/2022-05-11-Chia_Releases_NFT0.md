@@ -16,7 +16,7 @@ Today, Chia released the NFT0 alpha standard and a timeline for the official NFT
 
 ***
 
-Chia has released NFT0, a public, testnet10 standard for NFTs: ["Our vision for NFTs aligns with the Chia core pillars of security, sustainability, and compliance."](https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html). MintGarden has incorporated the NFT0 standard directly into testnet.mintgarden.io so any NFTs created on the blockchain using NFT0 will automatically be identified and displayed on MintGarden (mainnet NFTs will likely require an opt-in for listing on MintGarden).
+Chia has released NFT0, a public, testnet10 standard for NFTs: ["Our vision for NFTs aligns with the Chia core pillars of security, sustainability, and compliance."](https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html). MintGarden has incorporated the NFT0 standard directly into [testnet.mintgarden.io](https://testnet.mintgarden.io/) so any NFTs created on the blockchain using NFT0 will automatically be identified and displayed on MintGarden (mainnet NFTs will likely require an opt-in for listing on MintGarden).
 
 ![NFT0 Has Arrived on MintGarden](/img/blog/nft0_mg.png)
 
@@ -28,16 +28,14 @@ Chia has released NFT0, a public, testnet10 standard for NFTs: ["Our vision for 
  - Step 12 https://docs.chia.net/docs/15resources/nft_dev_guide/#install-and-configure-chia
  - Alternative Faucet: https://xchdev.com/faucet/
 3. Create an NFT Wallet
-
   ```
   chia rpc wallet create_new_wallet '{"wallet_type": "nft_wallet"}'
   ```
  - Step 1-2 https://docs.chia.net/docs/15resources/nft_dev_guide/#create-an-nft-wallet-cli
 
 4. Obtain Image and File Hash
-
   ```
-  curl https://images.pexels.com/photos/11053072/pexels-photo-11053072.jpeg | sha256sum
+  curl https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/1280px-Felis_catus-cat_on_snow.jpg | sha256sum
   ```
 
  - Step 1-2 https://docs.chia.net/docs/15resources/nft_dev_guide/#obtain-an-image-and-its-hash
@@ -54,7 +52,6 @@ Chia has released NFT0, a public, testnet10 standard for NFTs: ["Our vision for 
   chia rpc wallet nft_get_nfts '{"wallet_id": 2}'
   ```
 7. (Optional) Add additional uris to NFT
-
   ```
   chia rpc wallet nft_add_uri '{"wallet_id": 2, "nft_coin_id": "B5178AB54CD922889B4E97B2DDC0DD43FD85BE26F69DD3D697084C80AE4E9625", "uri": "https://newuri.net"}'
   ```
@@ -86,6 +83,7 @@ The NFT0 alpha standard is a testnet only NFT standard enabling users to mint, v
 
 NFT0 will be used by MintGarden.io to test the functionality of Chia NFTs and gain valuable insights from the community as to how they want to interact with NFTs.
 
-To prepare for the above we recommend reviewing the tutorial Chia has released for minting NFT0 compliant NFTs on testnet. (We advise these NFTs are only minted on testnet10)
+To prepare for the above we recommend reviewing the tutorial Chia has released for minting NFT0 compliant NFTs on testnet.
+**We advise these NFTs are only minted on testnet10**
 https://docs.chia.net/docs/15resources/nft_dev_guide/
-(Note: minting testnet NFTs via CLI does require some technical knowledge, please let us know if you run into any issues or have questions)
+(Note: minting testnet NFTs via CLI does require some technical knowledge, please let us know in [Discord](https://discord.gg/NVqpUw6F3s) if you run into any issues or have questions)
