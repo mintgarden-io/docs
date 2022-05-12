@@ -3,7 +3,7 @@ slug: what-is-an-NFT
 title: What is an NFT?
 description: A brief overview of NFTs and their use cases.
 authors: clydewallace22
-tags: [overview, nft]
+tags: [overview, nft, draft]
 image: /img/blog/nft/what-is-it-NFT.png
 ---
 ![What is an NFT?](/img/blog/nft/what-is-it-NFT.png)
@@ -54,25 +54,3 @@ Art NFTs represent physical or digital artwork including paintings, photographs,
 <img src="/img/blog/nft/utility.png" alt="utility NFT" width="150" />
 
 Utility NFT's represent assets that have a specific function including event tickets, deeds, video game assets, etc. Releasing utility NFT's allows the creator to distribute their asset in a new platform, ensure security for their utility, and authenticate those who are utilizing the asset. Examples of functionality for utility NFTs are the [Hoseo University](https://finance.yahoo.com/news/south-korean-university-issue-nfts-032142269.html) in South Korea is transitioning from paper-based diplomas to NFT-based diplomas, [Etherland](https://etherland.world/about-the-worlds-metaverse/) is converting physical real estate documents into NFT secured digital files, and [DC Comics](https://www.dccomics.com/blog/2022/03/11/cartamundi-launches-dc-hybrid-physical-and-nft-trading-cards) is releasing physical trading cards that come with associated NFT’s.
-
-
-***
-
-## Sources:
-
-1 [Forbes](https://www.forbes.com/advisor/investing/nft-non-fungible-token/)
-2 [BBC](https://www.bbc.com/news/technology-56371912)
-3 [NFT Creator](https://nft-creator.co/nft/types-of-nfts/)
-4 [Business Insider](https://www.businessinsider.com/ethereum-nft-meme-art-nyan-cat-sells-for-300-eth-2021-2)
-5 [NBCNews](https://www.nbcnews.com/pop-culture/pop-culture-news/iconic-doge-meme-nft-breaks-records-selling-roughly-4-million-n1270161)
-6 [BBC](https://www.bbc.com/news/newsbeat-57333990)
-7 [Christies](https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924)
-8 [Rolling Stone](https://www.rollingstone.com/music/music-news/whitney-houston-nft-collection-unreleased-song-demo-1258758/)
-9 [Silver Moon Studio](https://silvermoon.studio/about)
-10 [Yahoo Finance](https://finance.yahoo.com/news/south-korean-university-issue-nfts-032142269.html)
-11 [Etherland](https://etherland.world/about-the-worlds-metaverse/)
-12 [DC Comics](https://www.dccomics.com/blog/2022/03/11/cartamundi-launches-dc-hybrid-physical-and-nft-trading-cards)
-
-
-
-***
