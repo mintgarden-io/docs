@@ -22,7 +22,12 @@ Chia has released NFT0, a public, testnet10 standard for NFTs: ["Our vision for 
 
 ### 📑 Tutorial for minting NFT0 compliant NFTs via CLI commands:
 
-1. Install and setup the main_dids branch on testnet10 (the node is not required, only the steps listed need to be followed)
+1. Install and setup the main_dids branch on testnet10
+:::tip
+
+The full node is not required, only the steps listed need to be followed
+
+:::()
  - Steps 3-11 https://docs.chia.net/docs/15resources/nft_dev_guide/#install-and-configure-chia
 2. Add txch to your Standard Wallet
  - Step 12 https://docs.chia.net/docs/15resources/nft_dev_guide/#install-and-configure-chia
@@ -83,7 +88,16 @@ The NFT0 alpha standard is a testnet only NFT standard enabling users to mint, v
 
 NFT0 will be used by MintGarden.io to test the functionality of Chia NFTs and gain valuable insights from the community as to how they want to interact with NFTs.
 
-To prepare for the above we recommend reviewing the tutorial Chia has released for minting NFT0 compliant NFTs on testnet.
-**We advise these NFTs are only minted on testnet10**
-https://docs.chia.net/docs/15resources/nft_dev_guide/
-(Note: minting testnet NFTs via CLI does require some technical knowledge, please let us know in [Discord](https://discord.gg/NVqpUw6F3s) if you run into any issues or have questions)
+To prepare for the above we recommend reviewing the tutorial Chia has released for minting NFT0 compliant NFTs on testnet. https://docs.chia.net/docs/15resources/nft_dev_guide/
+:::danger
+
+We advise these NFTs are only minted on **testnet10**.
+
+:::
+
+
+:::note
+
+Minting testnet NFTs via CLI does require some technical knowledge, please let us know in [Discord](https://discord.gg/NVqpUw6F3s) if you run into any issues or have questions
+
+:::
