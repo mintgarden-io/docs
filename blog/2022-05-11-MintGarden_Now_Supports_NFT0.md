@@ -1,14 +1,14 @@
 ---
-slug: nft0-is-live-on-mintgarden
-title: NFT0 is Live on MintGarden
+slug: mintgarden-now-supports-nft0
+title: MintGarden Now Supports NFT0
 description: Overview of the NFT0 alpha NFT standard, how to mint NFTs, and how to view them on MintGarden.io
 authors: clydewallace22
 tags: [overview, nft, nft0, announcement]
 image: /img/blog/nft0_mg.png
 ---
-![NFT0 is Live on MintGarden](/img/blog/nft0_mg.png)
+![MintGarden Now Supports NFT0](/img/blog/nft0_mg.png)
 
-Today, Chia released the NFT0 alpha standard and a timeline for the official NFT standard release (NFT1). The NFT0 alpha standard enables the community to test minting capabilities and gain insights into how the official NFT standard will look and operate in their Chia client.
+Yesterday, Chia released the NFT0 alpha standard and a timeline for the official NFT standard release (NFT1). MintGarden now supports NFT0 on [testnet.mintgarden.io](https://testnet.mintgarden.io/) where NFT creators can view all of their NFT0 creations. The NFT0 alpha standard enables the community to test minting capabilities and gain insights into how the official NFT standard will look and operate in their Chia client and on the MintGarden marketplace.
 
 <!--truncate-->
 
