@@ -36,7 +36,7 @@ The record of contract for NFTs is one of the most important aspects as this rec
 
 ## Types of NFTs
 
-NFT's are being used for artwork, music, fashion, real estate, cars, and much more but these use cases can be broken down into three  main categories: meme, art, and utility. It is worth noting that NFTs can fall within one or more categories based on its function and these categories are non-exhaustive as NFT's are being created with new functionality each day.
+NFT's are being used for artwork, music, fashion, real estate, cars, and much more but these use cases can be broken down into three main categories: meme, art, and utility. It is worth noting that NFTs can fall within one or more categories based on its function and these categories are non-exhaustive as NFT's are being created with new functionality each day.
 
 ### Meme
 <img src="/img/blog/nft/meme.png" alt="meme NFT" width="150" />
@@ -44,7 +44,7 @@ NFT's are being used for artwork, music, fashion, real estate, cars, and much mo
 >"Memes have always been posted to enhance the social media discourse for fun. Now, unique meme creators can participate in an evolving NFT ecosystem by showcasing their memes as NFTs". [NFT Creator](https://nft-creator.co/nft/types-of-nfts/)
 
 
-Converting memes into NFT’s ensures the creator receives proper credit and provides a means for the public to compensate the creator for the meme. Some famous memes sold as NFTs include [Nyan cat](https://www.businessinsider.com/ethereum-nft-meme-art-nyan-cat-sells-for-300-eth-2021-2) - $600,000, [Doge](https://www.nbcnews.com/pop-culture/pop-culture-news/iconic-doge-meme-nft-breaks-records-selling-roughly-4-million-n1270161) - $4,000,000 , and [Charlie bit me](https://www.bbc.com/news/newsbeat-57333990) - $760,000. Many of the memes that can be purchased as NFTs are still available for the public to view but the owner of the NFT is the only true owner of that meme. NFT projects will predetermine and make available  the licensing rules and restrictions associated with the NFT but owning a meme NFT is akin to collecting other artwork: others may have the ability to create copies, but the original remains unique and more valuable.
+Converting memes into NFT’s ensures the creator receives proper credit and provides a means for the public to compensate the creator for the meme. Some famous memes sold as NFTs include [Nyan cat](https://www.businessinsider.com/ethereum-nft-meme-art-nyan-cat-sells-for-300-eth-2021-2) - $600,000, [Doge](https://www.nbcnews.com/pop-culture/pop-culture-news/iconic-doge-meme-nft-breaks-records-selling-roughly-4-million-n1270161) - $4,000,000 , and [Charlie bit me](https://www.bbc.com/news/newsbeat-57333990) - $760,000. Many of the memes that can be purchased as NFTs are still available for the public to view but the owner of the NFT is the only true owner of that meme. NFT projects will predetermine and make available the licensing rules and restrictions associated with the NFT but owning a meme NFT is akin to collecting other artwork: others may have the ability to create copies, but the original remains unique and more valuable.
 
 ### Art
 <img src="/img/blog/nft/art.png" alt="art NFT" width="150" />

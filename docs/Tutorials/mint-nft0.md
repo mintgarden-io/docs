@@ -1,24 +1,17 @@
 ---
-slug: mintgarden-now-supports-nft0
-title: MintGarden Now Supports NFT0
-description: Overview of the NFT0 alpha NFT standard, how to mint NFTs, and how to view them on MintGarden.io
+slug: nft0-minting
+title: NFT0 Minting
+description: MintGarden supports the minting of testnet10 standard NFT0.
 authors: clydewallace22
-tags: [overview, nft, nft0, announcement]
+tags: [announcement, tutorial]
+draft: true
 image: /img/blog/nft0_mg.png
 ---
-![MintGarden Now Supports NFT0](/img/blog/nft0_mg.png)
+![NFT0 Minting Tutorial](/img/blog/nft0_mg.png)
 
-Yesterday, Chia released the NFT0 alpha standard and a timeline for the official NFT standard release (NFT1). MintGarden now supports NFT0 on [testnet.mintgarden.io](https://testnet.mintgarden.io/) where NFT creators can view all of their NFT0 creations. The NFT0 alpha standard enables the community to test minting capabilities and gain insights into how the official NFT standard will look and operate in their Chia client and on the MintGarden marketplace.
+MintGarden has incorporated the NFT0 standard directly into [testnet.mintgarden.io](https://testnet.mintgarden.io/) so any NFTs created on the blockchain using NFT0 will automatically be identified and displayed on MintGarden (mainnet NFTs will likely require an opt-in for listing on MintGarden).
 
 <!--truncate-->
-
-## Chia Releases NFT0
-
-***
-
-Chia has released NFT0, a public, testnet10 standard for NFTs: ["Our vision for NFTs aligns with the Chia core pillars of security, sustainability, and compliance."](https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html). MintGarden has incorporated the NFT0 standard directly into [testnet.mintgarden.io](https://testnet.mintgarden.io/) so any NFTs created on the blockchain using NFT0 will automatically be identified and displayed on MintGarden (mainnet NFTs will likely require an opt-in for listing on MintGarden).
-
-![Chia Releases NFT0](/img/blog/nft0_cc.png)
 
 ### 📑 Tutorial for minting NFT0 compliant NFTs via CLI commands:
 

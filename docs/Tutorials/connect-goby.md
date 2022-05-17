@@ -1,9 +1,9 @@
 ---
 slug: goby-integration
-title: Goby Integration
+title: Goby Integration Tutorial
 description: We have completed the first step integrating the Goby Web Wallet into MintGarden!
 authors: acevail
-tags: [announcement, integration]
+tags: [announcement, integration, tutorial]
 image: /img/blog/mintgarden_x_goby.png
 ---
 ![Goby Integration](/img/blog/mintgarden_x_goby.png)
@@ -31,4 +31,4 @@ The Goby integration is live on mainnet meaning it CANNOT be used to create test
 This integration currently allows users to accept NFT CAT offers directly from the [MintGarden NFT token](https://mintgarden.io/cats) page.
 
 Let us know in [Discord](https://discord.gg/FJt6ZRYyyS) if you have any questions or run into issues connecting.
-Do note that we are continuing to work with the Goby team to ensure a seamless NFT minting process is available for mainnet launch. 
+Do note that we are continuing to work with the Goby team to ensure a seamless NFT minting process is available for mainnet launch.
