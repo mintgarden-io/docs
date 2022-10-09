@@ -12,7 +12,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/mint-logo.svg",
-  organizationName: "xch-gallery", // Usually your GitHub org/user name.
+  organizationName: "mintgarden-io", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
 
   presets: [
@@ -23,14 +23,15 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/xch-gallery/docs/tree/main/",
+          editUrl: "https://github.com/mintgarden-io/docs/tree/main/",
         },
-        blog: {
-          blogTitle: "Blog",
-          routeBasePath: "/blog",
-          showReadingTime: true,
-          editUrl: "https://github.com/xch-gallery/docs/tree/main/",
-        },
+        blog: false,
+        // blog: {
+        //   blogTitle: "Blog",
+        //   routeBasePath: "/blog",
+        //   showReadingTime: true,
+        //   editUrl: "https://github.com/mintgarden.-io/docs/tree/main/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -43,7 +44,7 @@ const config = {
     ({
       navbar: {
         logo: {
-          alt: "xch.gallery Logo",
+          alt: "MintGarden Logo",
           src: "img/mintgarden-logo.svg",
           srcDark: "img/mintgarden-logo-white-text.svg",
         },
@@ -54,7 +55,7 @@ const config = {
             position: "left",
             label: "Documentation",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://mintgarden.io",
             label: "mintgarden.io",
@@ -65,7 +66,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/xch-gallery/docs",
+            href: "https://github.com/mintgarden-io/docs",
             label: "GitHub",
             position: "right",
           },
