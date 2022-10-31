@@ -35,7 +35,7 @@ Select the profile you want to use for minting. This profile will be connected t
 #### Collection
 
 You can assign this new NFT to a collection if you want to group your NFTs together.
-If you didn't create a profile yet, head over to [create a collection](/mintgarden-studio/create-a-collection).
+If you didn't create a collection yet, head over to [create a collection](/mintgarden-studio/create-a-collection).
 
 #### Name and Description
 
