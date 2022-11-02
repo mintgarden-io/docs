@@ -16,7 +16,7 @@ of MintGarden Studio.
 
 ## Requirements
 
-1. [Chia Client 1.6.1-rc2 or newer](https://github.com/Chia-Network/chia-blockchain/releases) with a wallet set up.
+1. [Chia Client 1.6.1-rc4](https://github.com/Chia-Network/chia-blockchain/releases/tag/1.6.1-rc4) with a wallet set up.
 2. MintGarden Studio ([Early Access Version](https://mintgarden.io/mint))
 3. A profile in the Chia Client. <br/> If you didn't create a profile yet, head over
    to [create a profile](/mintgarden-studio/create-a-profile).
