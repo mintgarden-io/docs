@@ -6,6 +6,9 @@ title: Overview
 
 # MintGarden Documentation
 
+## MintGarden website
+
+* [Rarity ranking on MintGarden](/rarity)
 
 ## MintGarden Studio
 * [How to mint an NFT](/mintgarden-studio/mint-an-nft)
