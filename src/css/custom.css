@@ -7,28 +7,63 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #059669;
-  --ifm-color-primary-dark: #05875e;
-  --ifm-color-primary-darker: #048059;
-  --ifm-color-primary-darkest: #046949;
-  --ifm-color-primary-light: #06a573;
-  --ifm-color-primary-lighter: #06ad79;
-  --ifm-color-primary-lightest: #07c388;
-  --ifm-code-font-size: 95%;
-  --ifm-font-family-base: "Inter"
+    --ifm-color-primary: #059669;
+    --ifm-color-primary-dark: #05875e;
+    --ifm-color-primary-darker: #048059;
+    --ifm-color-primary-darkest: #046949;
+    --ifm-color-primary-light: #06a573;
+    --ifm-color-primary-lighter: #06ad79;
+    --ifm-color-primary-lightest: #07c388;
+    --ifm-code-font-size: 95%;
+    --ifm-font-family-base: "Inter"
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #059669;
-  --ifm-color-primary-dark: #05875e;
-  --ifm-color-primary-darker: #048059;
-  --ifm-color-primary-darkest: #046949;
-  --ifm-color-primary-light: #06a573;
-  --ifm-color-primary-lighter: #06ad79;
-  --ifm-color-primary-lightest: #07c388;
+    --ifm-color-primary: #059669;
+    --ifm-color-primary-dark: #05875e;
+    --ifm-color-primary-darker: #048059;
+    --ifm-color-primary-darkest: #046949;
+    --ifm-color-primary-light: #06a573;
+    --ifm-color-primary-lighter: #06ad79;
+    --ifm-color-primary-lightest: #07c388;
 }
 
 .navbar__brand {
-  margin-right: 0
+    margin-right: 0
+}
+
+.discord-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .375rem;
+    border-width: 1px;
+    border-color: transparent;
+    background-color: #4f46e5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    text-decoration: none;
+}
+
+.discord-button:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #4338ca;
+}
+
+.discord-button-icon {
+    display: block;
+    vertical-align: middle;
+    height: 1.5rem;
+    width: 1.5rem;
 }
