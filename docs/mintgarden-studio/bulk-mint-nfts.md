@@ -197,7 +197,7 @@ When the mempool size is close to 0, you can mint without fees.
 
 ### Start Minting
 
-Once you click `Start Minting`, the MintGarden Studio starts uploading an minting your NFTs. Note that you have to keep
+Once you click `Start Minting`, the MintGarden Studio starts uploading and minting your NFTs. Note that you have to keep
 this application open to continue minting.
 
 :::tip
