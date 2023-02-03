@@ -7,6 +7,9 @@ tags: [guides]
 image: /img/bulk-mint-nft/wizard-3.png
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 This guide describes how to bulk mint NFTs using the early access version
 of MintGarden Studio.
 
@@ -78,9 +81,14 @@ Note that your computer has to be active while minting in both cases.
 
 Select the folder where your images and your metadata information are stored.
 
-Three formats are supported:
+Three different formats are supported:
 
-#### 1. Image folder + metadata.csv
+<Tabs>
+<TabItem value="csv" label="Metadata as CSV" default>
+
+#### Single folder containing image files and a `metadata.csv`
+
+The expected folder structure looks like this.
 
 ```
 my-project/
@@ -94,14 +102,7 @@ my-project/
 
 The `metadata.csv` has the following format:
 
-```csv
-file;name;description;Background;Eyeball;Eye Color;Iris;Shine;Bottom lid;Top lid
-1.png;Eyes #1;Description 1;Black;White;Red;Small;Shapes;High;Middle
-2.png;Eyes #2;Description 2;Black;White;Yellow;Large;Shapes;High;High
-3.png;Eyes #3;Description 3;Black;White;Yellow;Small;Shapes;High;Middle
-4.png;Eyes #4;Description 4;Black;Red;Red;Small;Shapes;High;Middle
-5.png;Eyes #5;Description 5;Black;White;Red;Small;Shapes;High;Middle
-```
+<iframe src="https://drive.google.com/file/d/1j_f0c-y534o_3eaDFFXyilv-tdM3J-Q1/preview" width="100%" allow="autoplay"></iframe>
 
 The column `file` contains the filename of your image. The next columns `name` and `description` describe the NFT itself
 and will be displayed prominently in explorers and marketplaces.
@@ -109,9 +110,12 @@ and will be displayed prominently in explorers and marketplaces.
 The rest of the columns are the attributes of your NFTs. The first row is the header row and defines the trait types for
 your collection.
 
-You can download this sample here: <a target="_blank" href='/assets/metadata.csv'>Sample metadata.csv</a>
+You can download this sample here: <a target="_blank" href='https://drive.google.com/drive/folders/1Nl0uz42G-_AXFkL3g653dYsVuUr3IN5i'>Sample folder on Google Drive</a>
 
-#### 2. `images` and `json` folders with matching filenames
+</TabItem>
+<TabItem value="nested_folder" label="Metadata as JSON in nested folder">
+
+#### `images` and `json` folders with matching filenames
 
 ```
 my-project/
@@ -145,8 +149,10 @@ The `.json` files look like this:
 }
 ```
 
-#### 3. Single folder with `.png` and `.json` files with matching filenames
+</TabItem>
+<TabItem value="flat_folder" label="Metadata as JSON in single folder">
 
+#### Single folder with `.png` and `.json` files with matching filenames
 
 ```
 my-project/
@@ -178,6 +184,8 @@ The `.json` files look like this:
 }
 ```
 
+</TabItem>
+</Tabs>
 The Studio will show you a preview of all the NFTs and their metadata.
 
 When you're happy, click `Save and Continue`.
