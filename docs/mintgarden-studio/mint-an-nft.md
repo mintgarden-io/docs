@@ -58,7 +58,7 @@ When in doubt, consult a lawyer to pick the right license for your project. This
 Make sure to point to a plain text file or PDF file here.
 Pointing to a website will only work if the content of the website never changes.
 
-This field is read only if you definied the license URL in your collection.
+This field is read only if you defined the license URL in your collection.
 
 #### Royalty percentage
 
@@ -74,4 +74,4 @@ This image will be uploaded to https://nft.storage.
 #### Blockchain fee
 
 Optionally set a blockchain fee if you want to speed up the minting process in times of a busy network.
-Most of the times you can leave this at 0.
+Most of the time you can leave this at 0.
