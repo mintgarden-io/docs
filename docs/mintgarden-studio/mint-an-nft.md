@@ -16,7 +16,7 @@ of [MintGarden Studio](https://github.com/mintgarden-io/mintgarden-studio).
 ### Requirements
 
 1. [Chia Client](https://www.chia.net/downloads) with a wallet set up.
-2. [MintGarden Studio](https://github.com/mintgarden-io/mintgarden-studio/releases/latest)
+2. [MintGarden Studio](https://mintgarden.io/mint)
 3. A profile in the [Chia Client](https://www.chia.net/downloads). <br/> If you didn't create a profile yet, head over
    to [create a profile](/mintgarden-studio/create-a-profile).
 4. Some XCH for minting. You can get some from the [Chia Faucet](https://faucet.chia.net/).
