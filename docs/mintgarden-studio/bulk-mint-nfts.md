@@ -13,71 +13,26 @@ import TabItem from '@theme/TabItem';
 This guide describes how to bulk mint NFTs using the early access version
 of MintGarden Studio.
 
-![MintGarden Studio Minting Page](/img/bulk-mint-nft/wizard-3.png)
+![MintGarden Studio Minting Page](/img/bulk-mint-nft/wizard-1.png)
 
 <!--truncate-->
 
 ## Requirements
 
-1. [Chia Client 1.6.1 or newer](https://www.chia.net/downloads/) with a wallet set up.
-2. MintGarden Studio ([Early Access Version](https://mintgarden.io/mint))
+1. [Chia Client 2.1.4 or newer](https://www.chia.net/downloads/) with a wallet set up.
+2. The latest [MintGarden Studio](https://mintgarden.io/mint).
 3. A profile in the Chia Client. <br/> If you didn't create a profile yet, head over
    to [create a profile](/mintgarden-studio/create-a-profile).
-4. Some XCH for minting. You can get some from the [Chia Faucet](https://faucet.chia.net/).
+4. Some XCH for minting.
 
 ## Prepare the Mint
 
 Start with selecting `Minting` in the sidebar and then click the `Bulk Minting` button.
 
-### Step 1: Creator and Payment
+
+### Step 1: NFTs and attributes
 
 ![Bulk Minting Wizard Page 1](/img/bulk-mint-nft/wizard-1.png)
-
-#### Profile
-
-Select the profile you want to use for minting. This profile will be connected to the NFT and identifies you as the
-creator.
-
-#### Payment
-
-The bulk minting part of MintGarden Studio is a paid service. You have two options for payment
-
-1. You pay a flat fee per NFT upfront
-2. You pay a percentage of all future royalties to MintGarden.  
-   The splitting will be on chain and handled automatically.
-
-#### Royalty percentage
-
-One great feature of Chia NFTs is the automatic payment of royaties on secondary sales!
-
-For example, when you set `Royalty percentage` to 5% and your NFT sells for 1 XCH on the seconday market, you will
-automatically receive a payment of 0.05 XCH.
-
-### Step 2: Collection and Minting Strategy
-
-![Bulk Minting Wizard Page 2](/img/bulk-mint-nft/wizard-2-bulk.png)
-
-#### Collection
-
-You can assign this new NFT to a collection if you want to group your NFTs together.
-If you didn't create a collection yet, head over to [create a collection](/mintgarden-studio/create-a-collection).
-
-#### Minting Strategy
-
-There are two minting strategies available
-
-1. **Bulk Minting**: Mint the whole collection at once, in batches of 25 NFTs.   
-   If you enter a **Sale Price**, it will generate an offer file for you and put it on your computer.  
-   If you toggle **Upload to dexie.space**, the offer will automatically be uploaded to dexie as well.
-2. **Random Minting**: You determine a price for each NFT. We will generate a payment address for you.   
-   After you activate the minter, people can send NFTs to your payment address and pay the price you specified.
-   For each payment, the Studio will mint an NFT on demand and send this NFT back to the payment sender.
-
-Note that your computer has to be active while minting in both cases.
-
-### Step 3: NFTs and attributes
-
-![Bulk Minting Wizard Page 3](/img/bulk-mint-nft/wizard-3.png)
 
 Select the folder where your images and your metadata information are stored.
 
@@ -190,6 +145,51 @@ The Studio will show you a preview of all the NFTs and their metadata.
 
 When you're happy, click `Save and Continue`.
 
+### Step 2: Creator and Payment
+
+![Bulk Minting Wizard Page 2](/img/bulk-mint-nft/wizard-2.png)
+
+#### Profile
+
+Select the profile you want to use for minting. This profile will be connected to the NFT and identifies you as the
+creator.
+
+#### Payment
+
+The bulk minting part of MintGarden Studio is a paid service.
+You pay a flat fee per NFT upfront. 
+
+If you mint more than 100 pieces, a volume discount will be applied automatically.
+
+#### Royalties
+
+One great feature of Chia NFTs is the automatic payment of royaties on secondary sales!
+
+For example, when you set `Royalty percentage` to 5% and your NFT sells for 1 XCH on the seconday market, you will
+automatically receive a payment of 0.05 XCH.
+
+### Step 2: Collection and Minting Strategy
+
+![Bulk Minting Wizard Page 3](/img/bulk-mint-nft/wizard-3.png)
+
+#### Collection
+
+You can assign this new NFT to a collection if you want to group your NFTs together.
+If you didn't create a collection yet, head over to [create a collection](/mintgarden-studio/create-a-collection).
+
+#### Minting Strategy
+
+There are two minting strategies available
+
+1. **Bulk Minting**: Mint the whole collection at once, in batches of 25 NFTs.   
+   If you enter a **Sale Price**, it will generate an offer file for you and put it on your computer.  
+   If you toggle **Upload to dexie.space**, the offer will automatically be uploaded to dexie as well.
+2. **Random Minting**: You determine a price for each NFT. We will generate a payment address for you.   
+   After you activate the minter, people can send NFTs to your payment address and pay the price you specified.
+   For each payment, the Studio will mint an NFT on demand and send this NFT back to the payment sender.
+
+Note that your computer has to be active while minting in both cases.
+
 ## Run the Mint
 
 The MintGarden Studio will now show a summary of your mint. You can `Click to show details` at the top to expand more
@@ -199,8 +199,8 @@ details.
 
 #### Blockchain Fees
 
-Optionally set a blockchain fee if you want to speed up the minting process in times of a busy network.
-You can check [Spacescan](https://www.spacescan.io/xch/insight/mempool-size) to see the current mempool size.
+Set a blockchain fee if you want to speed up the minting process in times of a busy network.
+You will see a warning banner if your fees are deemed too low
 When the mempool size is close to 0, you can mint without fees.
 
 ### Start Minting
