@@ -28,7 +28,7 @@ Before you can use the integration, you have to invite the MintGarden Discord bo
 
 ## Token gating
 
-The bot will assign roles based on the NFTs a user holds. 
+The bot will assign roles based on the NFTs a user holds.
 
 ### Repare roles to assign
 
@@ -40,7 +40,7 @@ Then create a new role, for example `NFT Holder`.
 Make sure the role is sorted lower than the `MintGarden` role that has been created when inviting the bot.
 Otherwise the bot is not allowed to assign your new role.
 
-### Link the role to a collection 
+### Link the role to a collection
 
 Use the command `/collectionrole` to link a role to a specific NFT collection.
 The command can be run in any channel in your Discord server.
@@ -59,6 +59,18 @@ You can find your collection ID on MintGarden, as part of the URL.
 
 ![](/img/discord/mintgarden_collection_id.png)
 
+### Link the role to your go4me NFTs
+
+This is the same as linking a role to a collection, but you have to use the `go4me` collection ID:
+`col15qqmhl9gmra3h07av2mcpqpqqza92n33xvcu35gahgzzhy96j2ls6faz5t`
+
+Also, you have to add your X username attribute to the command, so it only uses your go4me NFTs, like this:
+`X Username=@acevail_`
+
+An example command looks like this:
+
+![](/img/discord/discord_go4me_collectionrole_example.png)
+
 ### Link the role to a creator
 
 Use the command `/creatorrole` to link a role to a specific NFT creator.
@@ -70,7 +82,6 @@ An example command looks like this:
 You can find the creator DID on MintGarden, on the profile page.
 
 ![](/img/discord/mintgarden_creator_id.png)
-
 
 ### Verify as a holder
 
